@@ -1,7 +1,6 @@
 .headerContent{
     display: flex;
     justify-content: center;
-
 }
 
 .modal-content {
@@ -10,6 +9,5 @@
     text-align: center; /* centers text */
     margin: 0 auto;
     padding: 10px;
-
 }
 

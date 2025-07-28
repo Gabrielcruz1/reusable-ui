@@ -16,7 +16,7 @@ function App() {
         <h1>Reusable UI</h1> <br/>
       </div>
       <div>
-        <button onClick={handleModal}>Open the Modal</button>
+        <button onClick={handleModal}>Toggle Modal</button>
         { open && 
         <Modal toggleModal={handleModal} /> 
         }

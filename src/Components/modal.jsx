@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom"
 import "../Styles/global.css"
 
-function Modal({ isOpen, toggleModal}) {
+function Modal({ toggleModal }) {
 
     return ReactDOM.createPortal(
         <div className="modal-content">
